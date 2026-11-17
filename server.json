@@ -1,0 +1,10 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.testerswap.api/testerswap",
+  "title": "TesterSwap",
+  "description": "Manage your app tests and credits with your TesterSwap account. Real people do the testing.",
+  "version": "1.0.0",
+  "websiteUrl": "https://testerswap.com/developers",
+  "repository": {"url": "https://github.com/sohhamm/testerswap-mcp", "source": "github"},
+  "remotes": [{"type": "streamable-http", "url": "https://api.testerswap.com/mcp"}]
+}

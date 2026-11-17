@@ -1,0 +1,15 @@
+{
+  "name": "testerswap",
+  "displayName": "TesterSwap",
+  "version": "1.0.0",
+  "description": "Manage your TesterSwap apps, tests and credits from your agent. Real people install and test each app.",
+  "author": {
+    "name": "Super Collective",
+    "email": "soham@supercollective.studio"
+  },
+  "homepage": "https://testerswap.com/developers",
+  "repository": "https://github.com/sohhamm/testerswap-mcp",
+  "license": "MIT",
+  "keywords": ["mcp", "app testing", "beta testing", "google play", "closed testing", "app store", "testflight"],
+  "logo": "assets/logo.png"
+}

@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "testerswap": {
+      "url": "https://api.testerswap.com/mcp"
+    }
+  }
+}
