@@ -1,0 +1,18 @@
+{
+  "name": "supercollective",
+  "owner": {
+    "name": "SuperCollective",
+    "email": "support@supercollective.studio"
+  },
+  "metadata": {
+    "description": "Agent plugins and MCP servers for SuperCollective products",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "testerswap",
+      "source": "./plugins/testerswap",
+      "description": "Manage your TesterSwap apps, tests and credits from your agent. Real people install and test each app."
+    }
+  ]
+}

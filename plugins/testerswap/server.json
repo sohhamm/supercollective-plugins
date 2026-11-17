@@ -5,6 +5,15 @@
   "description": "Manage your app tests and credits with your TesterSwap account. Real people do the testing.",
   "version": "1.0.0",
   "websiteUrl": "https://testerswap.com/developers",
-  "repository": {"url": "https://github.com/sohhamm/testerswap-mcp", "source": "github"},
-  "remotes": [{"type": "streamable-http", "url": "https://api.testerswap.com/mcp"}]
+  "repository": {
+    "url": "https://github.com/sohhamm/supercollective-plugins",
+    "source": "github",
+    "subfolder": "plugins/testerswap"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.testerswap.com/mcp"
+    }
+  ]
 }
