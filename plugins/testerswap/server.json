@@ -3,8 +3,56 @@
   "name": "com.testerswap.api/testerswap",
   "title": "TesterSwap",
   "description": "Manage your app tests and credits with your TesterSwap account. Real people do the testing.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://testerswap.com/developers",
+  "icons": [
+    {
+      "src": "https://testerswap.com/icons/testerswap-app-icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    },
+    {
+      "src": "https://testerswap.com/icons/testerswap-app-icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    },
+    {
+      "src": "https://testerswap.com/icons/testerswap-app-icon-light-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ],
+      "theme": "light"
+    },
+    {
+      "src": "https://testerswap.com/icons/testerswap-app-icon-light.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ],
+      "theme": "light"
+    },
+    {
+      "src": "https://testerswap.com/icons/testerswap-app-icon-dark-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ],
+      "theme": "dark"
+    },
+    {
+      "src": "https://testerswap.com/icons/testerswap-app-icon-dark.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ],
+      "theme": "dark"
+    }
+  ],
   "repository": {
     "url": "https://github.com/sohhamm/supercollective-plugins",
     "source": "github",
