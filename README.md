@@ -21,6 +21,15 @@ Install from the Cursor Marketplace, or add a plugin's server to `~/.cursor/mcp.
 /plugin install testerswap@supercollective
 ```
 
+### Hermes Agent
+
+```
+hermes plugins install testerswap
+hermes plugins enable testerswap
+```
+
+The Hermes packages live in `hermes/<name>/` and sign in through `mcp-remote`; see each package's README.
+
 ### Other MCP clients
 
 Every plugin's README lists its server URL and authentication. Add it as a remote MCP server in Claude, ChatGPT or any client that supports Streamable HTTP.
@@ -39,6 +48,11 @@ plugins/<name>/
   skills/<name>/SKILL.md          Agent instructions
   assets/logo.png                 512x512 logo on a background plate
   README.md
+hermes/<name>/                    Hermes Agent package (Agent Plugins v1)
+  plugin.json                     Manifest, server marked untrusted
+  mcp.json                        Server through pinned mcp-remote for OAuth
+  skills/<name>/SKILL.md          Same skill as plugins/<name>
+  README.md                       Rendered on the Hermes plugin page
 ```
 
 A new plugin needs its folder and an entry in both catalogs. Validate with `claude plugin validate plugins/<name>` before opening a pull request.

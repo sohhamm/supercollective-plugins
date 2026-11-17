@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "testerswap",
+  "version": "1.0.0",
+  "description": "Manage your TesterSwap apps, tests and credits from your agent. Real people install and test each app.",
+  "author": {
+    "name": "SuperCollective",
+    "email": "support@supercollective.studio",
+    "url": "https://supercollective.studio"
+  },
+  "homepage": "https://testerswap.com/developers",
+  "repository": "https://github.com/sohhamm/supercollective-plugins/tree/main/hermes/testerswap",
+  "license": "MIT",
+  "keywords": ["mcp", "app testing", "beta testing", "google play", "closed testing", "app store", "testflight"],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "testerswap": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}
